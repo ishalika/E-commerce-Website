@@ -1,0 +1,523 @@
+*{
+    
+}
+.nav{
+    background-color: pink;
+    z-index: 9;
+    margin-top: 50 px;
+    width:100%;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.nav_top {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+}
+.logo{
+    float: left;
+    width: 50%;
+}
+.logo img{
+    padding: 10px;
+    padding-left: 50px;
+}
+.nav_side{
+    width:50%;
+    float: right;
+    margin-left: 8%;
+    margin-top: 5px;
+    padding: 20px;
+}
+.navside h6{
+
+    color: black;
+    font-weight: bold;
+    font-size:14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_side a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size:14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_side a:hover{
+    color: green;
+    font-size: 15px;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+.main{
+    background-image: url(file:///C:/Users/ishal/.vscode/Project2/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 30vh;
+}
+.main .main_content{
+    padding-top: 52px;
+}
+.main .main_content p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.products{
+    padding-bottom: 15px;
+}
+.products h1{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 5px;
+    font-family:cursive;
+}
+.products .prod_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.products .prod_container .item{
+    margin: 10px;
+    width: 33.33%;
+    height: auto;
+    padding-bottom: 15px;
+}
+.products .prod_container .item:hover{
+    transition: .7s;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.products .prod_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.products .prod_container .item .item_img img{
+    width:100%;
+    height: 250px;
+}
+.products .prod_container .item .item_info{
+    text-align: center;
+}
+.products .prod_container .item .item_info h3{
+    padding: 5px;
+    padding-bottom: 0;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.products .prod_container .item .item_info p{
+    padding: 5px;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.products .prod_container .item .item_info a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 12px;
+    text-align: center;
+    background-color:palevioletred;
+    color: white;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.products .prod_container .item .item_info a:hover{
+    background-color: white;
+    color: green;
+    border: none;
+    border-bottom: 3px solid green;
+    transition: 0.5s;
+}
+.products .prod_btn{
+    padding: 30px;
+    text-align: center;
+}
+.products .prod_btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 12px;
+    text-align: center;
+    background-color: rgb(46, 158, 46);
+    color: white;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid white;
+    border-radius:15px;
+}
+.products .prod_btn a:hover{
+    background-color: white;
+    color:palevioletred;
+    border: none;
+    border-bottom: 3px solid palevioletred;
+    transition: 0.5s;
+}
+
+.highlights{
+    padding: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.highlights h1{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 5px;
+    font-family:cursive;
+}
+.highlights .content{
+    display: flex;
+    padding-bottom: 20px;
+}
+.highlights .content .points{
+    width: 45%;
+    padding: 10px;
+    float: left;
+}
+.highlights .content .points li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 3px solid greenyellow;
+    color: black;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.highlights .content .points li:hover{
+    transition: .2s;
+    border-radius: 7px;
+    border: 3px solid rgb(224, 156, 167);
+}
+.highlights .content .image{
+    width: 45%;
+    float: right;
+    margin-left: 6%;
+
+}
+.highlights .content .image img{
+    width: 100%;
+}
+.clients{
+    padding: 10px;
+}
+.clients h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family:cursive;
+}
+.clients .container{
+    padding: 10%;
+    padding-top: 0;
+    text-align: center;
+}
+.clients .container .crousel-inner{
+    background-color: white;
+}
+.clients .container .item{
+    padding:5%;
+    width: 100%;
+    background-color:rgb(187, 160, 164);
+    box-shadow: none;
+}
+.clients .container .item .item_img{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+.clients .container .item .item_img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+.clients .container .item .caption{
+    text-align: center;
+}
+.clients .container .item .caption h3{
+    padding:8px;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.clients .container .item .caption p{
+    color:azure;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    background-color: rgb(97, 124, 97);
+    padding: 50px;
+}
+footer .page{
+    text-align: center;
+}
+footer .page h3{
+    color:black;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+footer .page a{
+    text-decoration: none;
+    margin: 10px;
+    color: pink;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .page a:hover{
+    color: white;
+    font-size: 17px;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    color:black;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: pink;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .doc a:hover{
+    color: white;
+    font-size: 17px;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color:black;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    margin: 10px;
+    font-size: 15px;
+    color: pink;
+}
+footer .social a:hover{
+    color: white;
+    font-size: 20px;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color:black;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+footer .contact a{
+    margin: 10px;
+    font-size: 15px;
+    color: pink;
+}
+footer .contact a:hover{
+    color: white;
+    font-size: 20px;
+}
+.help_main h1{
+    margin-left: 30px;
+    padding: 20px;
+    color: black;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.help_main .cont{
+    display: flex;
+}
+.help_main .cont .ways{
+    margin: 50px;
+    width: 30%;
+    
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.35);
+    text-align: center;
+}
+.help_main .cont .ways h2{
+    padding: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.help_main .cont .ways i{
+    padding: 40px;
+    font-size: 30px;
+}
+.help_main .cont .ways a{
+    padding: 20px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.help_main .cont .ways a:hover{
+    text-decoration: none;
+    color: black;
+}
+.team{
+    margin: 10px;
+    padding: 20px;
+}
+.team h2{
+    padding: 20px;
+    padding-top: 0;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+.team .team_cont{
+    display: flex;
+}
+.team .team_cont .team_video{
+    width:40%;
+    margin-left: 20px;
+}
+.team .team_cont .team_video video{
+    width: 100%;
+    border:6px solid green;
+    outline: none;
+}
+.team .team_cont .team_content{
+    width:40%;
+    margin-left: 40px;
+    padding:20px;
+    padding-top: 0;
+}
+.team .team_cont .team_content p{
+    color: black;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.visit_container{
+    margin:20px;
+    padding:10px;
+    padding-top: 5px;
+}
+.visit_container h2{
+    padding:10px;
+    padding-top: 0;
+    color: green;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.visit_container .map{
+    margin:10px;
+}
+.visit_container .contact{
+    padding: 20px;
+}
+.visit_container .contact li{
+    list-style: none;
+    padding: 10px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.priv_main{
+    margin-left: 25px;
+}
+.priv_main  h2{
+    padding:10px;
+    padding-top: 0;
+    color: green;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.priv_main p{
+    color: black;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.priv_main .panel-heading a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.refund_main{
+    margin: 20px;
+    padding-left: 10px;
+}
+.refund_main h2{
+    padding: 5px;
+    color: black;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.refund_main p{
+    padding: 5px;
+    color: rgb(82, 82, 82);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.refund_main .panel-heading a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.review{
+    margin:10px;
+}
+.review h3{
+    padding 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.review .form{
+    padding: 50px;
+    background-image: url("images.jfif");
+    background-size: cover;
+
+}
+.review .form h2{
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.review .form .entries{
+    text-align: center;
+}
+.review .form .entries form{
+    padding: 20px;
+}
+.review .form .entries form input{
+    width: 30%;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.review .form .entries form textarea{
+    width: 30%;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.review .form .entries form button{
+    width: 8%;
+    margin: 5px;
+    padding: 4px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
